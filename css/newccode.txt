@@ -1,0 +1,43 @@
+#5E1B77-purple
+netflex red #e50914
+
+.tabs{
+    background:var(--dark-colour) ;
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+
+   }
+.tabs.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ <section class="tabs">
+       <div class="container">
+           <div id="tab-1" class="tab-item tab-border"> 
+             <i class="fas fa-door-open fa-3x"></i>
+             <p class="hide-sm">Play anything</p>
+
+           </div>
+           <div id="tab-2" class="tab-item "> 
+            <i class="fas fa-tablet-alt fa-3x"></i>
+            <p class="hide-sm">Play anything</p>
+
+          </div>
+
+          <div id="tab-3" class="tab-item "> 
+            <i class="fas fa-tags fa-3x"></i>
+            <p class="hide-sm">Play anything</p>
+
+          </div>
+           
+       </div>
+</section>
+
+box-shadow: inset 80px 60px 180px #000000 ;
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
